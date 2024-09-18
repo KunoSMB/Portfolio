@@ -13,8 +13,8 @@ const Header = () => {
     <>
      <header>
         <div className="container flexsb">
-            <div className="logo">
-                <img src={logo} alt="" />
+            <div className='logoContainer'>
+                <img className='logo' src={logo} alt="logo of sofiane's brand" />
             </div>
             <div className={responsive ? 'hideMenu' : 'nav'}>
                 {navlink.map((links, i) => (

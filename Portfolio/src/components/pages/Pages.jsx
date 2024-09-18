@@ -6,16 +6,20 @@ import {
     Route,
     Link
   } from "react-router-dom";
+import Home from '../home/Home';
+import About from './About';
+import Services from '../home/Services';
+import Portfolio from './Portfolio';
 
 const pages = () => {
   return (
     <Router>
-        <Switch>
         <Header />
-        {/* <Route path="/">
-            <About />
-        </Route> */}
-        
+        <Switch>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/services' component={Services} />
+        <Route exact path='/portfolio' component={Portfolio} />
         </Switch>
     </Router>
   )
