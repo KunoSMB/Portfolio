@@ -11,7 +11,7 @@ const Hero = () => {
             
             {home.map((val, i) => (
                 <div className="heroContainer" key={i}>
-                    <h3>
+                    <h3 data-aos='fade-up'>
                         {val.text}
                     </h3>
                     <h1>
@@ -21,8 +21,8 @@ const Hero = () => {
                             loop: true,
                         }} />
                     </h1>
-                    <p>{val.desc}</p>
-                    <button className="primaryBtn">Download Cv</button>
+                    <p data-aos='fade-left' >{val.desc}</p>
+                    <button className="primaryBtn" data-aos='fade-up'>Download Cv</button>
                 </div>
             ))}
         </section>

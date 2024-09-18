@@ -9,10 +9,10 @@ const About = () => {
                 {
                     about.map((val, i) =>(
                         <div className="aboutContainer" key={i}>
-                            <div className="left" >
+                            <div className="left" data-aos='fade-down-right'>
                                 <img src={val.cover} alt="" />
                             </div>
-                            <div className="right">
+                            <div className="right" data-aos='fade-down-left'>
                                 <Heading title='About Me'/>
                                 <p>{val.desc}</p>
                                 <p>{val.desc1}</p>

@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import { navlink } from '../data/dummydata.jsx'
 import logo from '../data/images/logo.png'
-import { Menu } from '@mui/icons-material'
+import { Menu, Home } from '@mui/icons-material'
 
 
 const Header = () => {
@@ -14,11 +14,13 @@ const Header = () => {
      <header>
         <div className="container flexsb">
             <div className='logoContainer'>
-                <img className='logo' src={logo} alt="logo of sofiane's brand" />
+                <a href="/#" >
+                <Home  className='logo'/>
+                </a>
             </div>
             <div className={responsive ? 'hideMenu' : 'nav'}>
                 {navlink.map((links, i) => (
-                    <Link to={links.url} key={i}>
+                    <Link to={links.url} key={i} data-aos="zoom-in">
                         {links.text}
                     </Link>
                 ))}

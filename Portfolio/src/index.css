@@ -7,7 +7,7 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #cc6663;
+  --primaryColor: #10b462;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -102,8 +102,7 @@ header a {
   display: flex;
   align-items: center;
 }
-@media screen and (max-width: 768px) {
-}
+
 @media screen and (max-width: 768px) {
   .container {
     justify-content: space-between;
@@ -114,11 +113,7 @@ header a {
     align-items: center;
     height: 90vh;
   }
-  .left {
-    display: block;
-    margin: 0 auto;
-  }
-
+ 
   header .nav {
     display: none;
   }
@@ -361,7 +356,8 @@ article .box:hover .overlay::after {
   margin: auto;
 }
 .testimonials i {
-  background-color: var(--white);
+  background-color: var(--primaryBackground);
+  border-radius: 5px;
   font-size: 20px;
   padding: 10px;
   margin: 30px 0;
@@ -438,4 +434,66 @@ footer i {
   color: var(--primaryColor);
 }
 /* ----------------footer----------------- */
+@media screen and (max-width:768px){
+  .hero{
+    height: 60vh;
+  }
+  .heroContainer{
+    max-width: 80%;
+  }
+  .hero::after{
+    height: 60vh;
+  }
+  section {
+    height: auto;
+    padding-top: 50px;
+  }
+  .contact .flexsb,
+  .about .flex {
+    flex-direction: column;
+  } 
+  .left,
+  .right {
+    display: block;
+    margin: 0 auto;
+  }
+  .grid3,
+  .grid4 {
+    grid-template-columns: repeat(2,1fr);
+  }
 
+  .services {
+    margin-top: 70px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* added last minute  */
+.linkedInIcon{
+  display: block;
+  margin: 0 auto;
+  color: #10b462;
+}
