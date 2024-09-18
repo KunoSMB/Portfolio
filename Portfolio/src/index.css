@@ -7,7 +7,7 @@
 :root {
   --primaryBackground: #212222;
   --secondaryBackground: #2f3030;
-  --primaryColor: #e0a80d;
+  --primaryColor: #cc6663;
   --greyDark: #7d8792;
   --headingColor: #2d2e2e;
   --white: #fff;
@@ -393,7 +393,7 @@ label {
 }
 /* ----------------testimonials----------------- */
 /* ----------------bog----------------- */
-.blog img{
+.blog img {
   width: 100%;
 }
 .blog .box {
@@ -404,3 +404,38 @@ label {
   padding: 10px 30px;
 }
 /* ----------------bog----------------- */
+/* ----------------contact----------------- */
+.contact {
+  margin: 20px 0;
+}
+.contact .right,
+.contact .left {
+  padding: 20px;
+}
+.contact .flex input:nth-child(1) {
+  margin-right: 10px;
+}
+
+.contact button,
+.contact textarea,
+.contact input {
+  width: 100%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+/* ----------------contact----------------- */
+/* ----------------footer----------------- */
+footer{
+  text-align: center;
+  background-color: var(--primaryBackground);
+  padding: 70px;margin-top: 50px;
+}
+footer i {
+  margin: 5px;
+  color: var(--primaryColor);
+}
+/* ----------------footer----------------- */
+

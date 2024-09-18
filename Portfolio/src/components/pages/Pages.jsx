@@ -12,6 +12,8 @@ import Services from '../home/Services';
 import Portfolio from './Portfolio';
 import Testimonials from './Testimonials';
 import Blog from './Blog';
+import Contact from './Contact';
+import Footer from '../common/Footer';
 
 const pages = () => {
   return (
@@ -24,7 +26,9 @@ const pages = () => {
         <Route exact path='/portfolio' component={Portfolio} />
         <Route exact path='/testimonials' component={Testimonials} />
         <Route exact path='/blog' component={Blog} />
+        <Route exact path='/contact' component={Contact} />
         </Switch>
+        <Footer />
     </Router>
   )
 }
