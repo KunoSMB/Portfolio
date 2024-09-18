@@ -23,8 +23,8 @@ const Portfolio = () => {
             <div className="container">
                 <Heading title='Portfolio'/>
                 <div className="catButton">
-                    {category.map((category) => (
-                        <button className='primaryBtn' onClick={() => filterItems(category)}>{category}</button>
+                    {category.map((category , i) => (
+                        <button className='primaryBtn' key={i} onClick={() => filterItems(category)}>{category}</button>
                     ))}
                 </div>
             </div>
