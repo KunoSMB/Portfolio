@@ -9,14 +9,14 @@ const Blog = () => {
             <Heading title='Blog'/>
             <div className="content grid3">
                 {blog.map((val ,i) => (
-                    <div key={i} className="box">
-                        <div className="img">
+                    <div key={i} className="box" data-aos="flip-up" data-aos-duration="1000">
+                        <div className="img" data-aos="flip-up" data-aos-duration="1000">
                             <img src={val.cover} alt="" />
                         </div>
                         <div className="text">
-                            <h3>{val.title}</h3>
-                            <label>By {val.author} {val.date}</label>
-                            <p>{val.desc}</p>
+                            <h3 data-aos="flip-up" data-aos-duration="1000">{val.title}</h3>
+                            <label data-aos="flip-up" data-aos-duration="1000">By {val.author} {val.date}</label>
+                            <p data-aos="flip-up">{val.desc}</p>
                         </div>
                     </div>
                 ))}

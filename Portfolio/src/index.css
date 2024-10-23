@@ -210,17 +210,6 @@ section {
   justify-content: space-around;
 }
 
-.right {
-  flex-grow: 1; /* grow width automatically if needed */
-  min-width: 0;
-  flex: 0 65%;
-  margin: 20px;
-  padding: 20px;
-}
-
-.left {
-  padding: 20px;
-}
 
 .btnContainer {
   display: block;
@@ -452,6 +441,7 @@ footer i {
   .about .flex {
     flex-direction: column;
   } 
+ 
   .left,
   .right {
     display: block;
@@ -462,9 +452,10 @@ footer i {
     grid-template-columns: repeat(2,1fr);
   }
 
-  .services {
-    margin-top: 70px;
-  }
+  .services {margin-top: 100px;}
+
+  
+
 }
 
 

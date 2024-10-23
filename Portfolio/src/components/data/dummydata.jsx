@@ -1,4 +1,4 @@
-import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube, SupportAgent, EmojiObjects } from "@mui/icons-material"
 
 export const navlink = [
   {
@@ -41,47 +41,48 @@ export const home = [
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+    desc: "From a young age, I’ve been captivated by the world of technology and software development. Growing up in Algeria, I spent countless hours exploring how things work behind the scenes in the digital world. Despite choosing a path in nursing, a field where I could directly help others, my fascination with coding and software never diminished. As a 24-year-old nurse, I’ve decided to take the leap and fully commit to blending my professional skills with my lifelong passion for technology. Now, I’m learning and evolving every day, working hard to make my dreams of becoming a software engineer a reality.",
+    desc1: "By leveraging the critical thinking and problem-solving skills I’ve honed in the medical field, I’m able to approach software engineering with a unique perspective. My nursing background has taught me the importance of precision, empathy, and attention to detail, which I now bring into my coding projects. I’m determined to build a future where I can combine my creativity with the technical expertise I continue to develop, pushing myself to create meaningful, impactful solutions through software. This journey is challenging, but it’s one I embrace wholeheartedly.",
     cover: "./images/man.png",
   },
-]
+];
+
 export const services = [
   {
     id: 1,
-    icon: <Settings />,
+    icon: <EmojiObjects />,
     title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "I craft visually compelling designs that capture your brand's essence. Whether it's web design or branding, my creativity ensures every project stands out.",
   },
   {
     id: 2,
-    icon: <CropRotate />,
+    icon: <Code /> ,
     title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "I write efficient, maintainable, and scalable code, ensuring your projects run smoothly across all platforms. Quality and clarity are my top priorities.",
   },
   {
     id: 3,
     icon: <ViewInAr />,
     title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Every design I create is fully responsive, ensuring an optimal user experience on any device, from desktop to mobile. Your site will look great everywhere.",
   },
   {
     id: 4,
-    icon: <PieChart />,
+    icon: <Settings />,
     title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "I specialize in Material UI, delivering user-friendly interfaces that align with Google's design guidelines. Expect clean and intuitive layouts tailored to your needs.",
   },
   {
     id: 5,
-    icon: <Code />,
+    icon: <CropRotate />,
     title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "Enhance your application's UI with a wide range of Material UI icons. I seamlessly integrate icons to improve navigation and user experience.",
   },
   {
     id: 6,
-    icon: <BarChart />,
+    icon: <SupportAgent />,
     title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
+    desc: "I provide reliable, ongoing support for your projects. Whether it's troubleshooting or updates, I'm here to ensure your digital presence remains strong.",
   },
 ]
 export const project = [
@@ -123,7 +124,7 @@ export const portfolio = [
     id: 2,
     cover: "../images/port/port2.jpg",
     name: "Project",
-    category: "design",
+    category: "Game",
     title: "Brex Logo",
   },
   {
@@ -142,10 +143,10 @@ export const portfolio = [
   },
   {
     id: 5,
-    cover: "../images/port/port5.jpg",
-    name: "Project",
-    category: "design",
-    title: "Brex Logo",
+    cover: "../images/port/Quizzical.PNG",
+    name: "A Quizz Game",
+    category: "Game",
+    title: "Quizzical",
   },
   {
     id: 6,
@@ -210,18 +211,18 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "250 Villa, K N01",
+    text2: "Saida, 08 Mai 1945 city",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "+213 0541935019",
+    text2: "+213 0553507619",
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "sofiane14008@gmail.com",
+    text2: "sofiane15603@gmail.com",
   },
 ]
 export const social = [

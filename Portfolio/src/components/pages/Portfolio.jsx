@@ -36,7 +36,7 @@ const Portfolio = () => {
         </div>
         <div className="content grid3">
           {list.map((item, i) => (
-            <div className="box" key={i}>
+            <div className="box" key={i} data-aos="flip-left">
               <div
                 className="img"
                 data-aos="flip-left"
