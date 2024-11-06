@@ -119,6 +119,7 @@ export const portfolio = [
     name: "Project",
     category: "marketing",
     title: "Brex Logo",
+    url:"/#"
   },
   {
     id: 2,
@@ -126,27 +127,31 @@ export const portfolio = [
     name: "Project",
     category: "Game",
     title: "Brex Logo",
+    url:"/#"
   },
   {
     id: 3,
-    cover: "../images/port/port3.jpg",
-    name: "Project",
+    cover: "../images/port/Groceries.jpg",
+    name: "An app to save your groceries on firebase",
     category: "development",
-    title: "Brex Logo",
+    title: "Cart List",
+    url:"https://my-cart-list.netlify.app"
   },
   {
     id: 4,
-    cover: "../images/port/port4.jpg",
+    cover: "../images/port/Tenzies.jpg",
     name: "Project",
-    category: "marketing",
-    title: "Brex Logo",
+    category: "Game",
+    title: "Tenzies",
+    url:"https://smb-tenzies-game.netlify.app"
   },
   {
     id: 5,
-    cover: "../images/port/Quizzical.PNG",
+    cover: "../images/port/Quizzical.jpg",
     name: "A Quizz Game",
     category: "Game",
     title: "Quizzical",
+    url:"https://quizzical-hut.netlify.app"
   },
   {
     id: 6,
@@ -154,6 +159,7 @@ export const portfolio = [
     name: "Project",
     category: "development",
     title: "Brex Logo",
+    url:"/#"
   },
 ]
 export const testimonials = [
@@ -163,7 +169,7 @@ export const testimonials = [
     image: "./images/testimonials/team-1.png",
     name: "Belhia M.Sofiane",
     post: "Front End Developer",
-    url:'/#',
+    url:'https://www.linkedin.com/in/sofiane-belhia-1696b5285/',
   },
   {
     id: 2,
@@ -177,7 +183,7 @@ export const testimonials = [
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./images/testimonials/team-3.png",
-    name: "Novack",
+    name: "Place Holder",
     post: "Professional Yapper",
     url:'/#',
   },

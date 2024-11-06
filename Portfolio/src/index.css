@@ -101,6 +101,7 @@ header a {
 .logoContainer {
   display: flex;
   align-items: center;
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 768px) {
@@ -310,8 +311,8 @@ article .box {
   z-index: -1;
 }
 
-article .box:hover .overlay,
-article .box:hover .overlay::after {
+article  .box:hover .overlay,
+article  .box:hover .overlay::after {
   opacity: 1;
 }
 

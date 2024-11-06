@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import { navlink } from '../data/dummydata.jsx'
-import logo from '../data/images/logo.png'
 import { Menu, Home } from '@mui/icons-material'
 
 

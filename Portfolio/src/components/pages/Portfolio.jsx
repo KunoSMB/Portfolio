@@ -21,7 +21,7 @@ const Portfolio = () => {
     <>
       <article>
         <div className="container">
-          <Heading title="Portfolio" />
+          <Heading title="Projects" />
           <div className="catButton">
             {category.map((category, i) => (
               <button
@@ -42,16 +42,17 @@ const Portfolio = () => {
                 data-aos="flip-left"
                 data-aos-duration="2000"
               >
-                <img src={item.cover} alt="" />
+                <img src={item.cover} alt=""/>
               </div>
               <div
                 className="overlay"
                 data-aos="flip-left"
                 data-aos-duration="2000"
-              >
-                <h3>{item.title}</h3>
-                <span>{item.name}</span>
-                <Visibility />
+                onClick={() => window.open(item.url, "_blank")}
+                >
+                    <h3>{item.title}</h3>
+                    <span style={{textAlign :'center'}}>{item.name}</span>
+                    <Visibility />
               </div>
             </div>
           ))}
